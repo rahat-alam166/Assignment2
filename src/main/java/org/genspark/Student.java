@@ -14,19 +14,22 @@ public class Student
     {
 
     }
-    public Student(int student, String name, Address add)
+
+    public Student(int student, String name, List<Phone> ph, Address add)
     {
         this.student = student;
         this.name = name;
+        this.ph = ph;
         this.add = add;
     }
 
     @Override
-    public String   toString()
+    public String toString()
     {
         return "Student{" +
                 "student=" + student +
                 ", name='" + name + '\'' +
+                ", ph=" + ph +
                 ", add=" + add +
                 '}';
     }
