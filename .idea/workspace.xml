@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a10f8c-1d59-4687-b7f9-b9c0ce9b4be1" name="Changes" comment="Implemented Spring context for every value aside Phone class and list.">
+    <list default="true" id="e5a10f8c-1d59-4687-b7f9-b9c0ce9b4be1" name="Changes" comment="Implementing Spring Java file and annotations.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/genspark/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/genspark/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/genspark/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/genspark/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/genspark/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/genspark/Phone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/genspark/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/genspark/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/genspark/testssss.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,7 @@
       <workItem from="1680618735741" duration="7385000" />
       <workItem from="1680715282736" duration="614000" />
       <workItem from="1680793316946" duration="955000" />
+      <workItem from="1680890865485" duration="1000000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented Spring context for every value aside Phone class and list.">
       <created>1680628195687</created>
@@ -101,11 +102,36 @@
       <option name="project" value="LOCAL" />
       <updated>1680628607627</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1680890903580</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680890903580</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implementing Spring Java file and annotations.">
+      <created>1680891100900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680891100900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -120,6 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented Spring context for every value aside Phone class and list." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Spring context for every value aside Phone class and list." />
+    <MESSAGE value="test" />
+    <MESSAGE value="Implementing Spring Java file and annotations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing Spring Java file and annotations." />
   </component>
 </project>

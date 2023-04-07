@@ -1,31 +1,33 @@
 package org.genspark;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Configuration
+@ComponentScan(basePackages = "org.genspark")
 public class AppConfig
 {
     @Bean
-    public Phone getPhone()
+    public Phone phone()
     {
         return new Phone("088-888-8880");
     }
     @Bean
-    public Address getAdd()
+    public Address address()
     {
         return new Address("Dallas", "TX", "USA", "78441");
     }
     @Bean
-    public Student getStud()
+    public Student student()
     {
         List<Phone> temp = new ArrayList<>();
-        temp.add(getPhone());
-        temp.add(getPhone());
-        temp.add(getPhone());
-        return new Student(0, "John Smith", temp, getAdd());
+        temp.add(phone());
+        temp.add(phone());
+        temp.add(phone());
+        return new Student(0, "John Smith", temp, address());
     }
 }

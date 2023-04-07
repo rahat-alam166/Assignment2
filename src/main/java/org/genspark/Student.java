@@ -1,6 +1,10 @@
 package org.genspark;
 
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+
 import java.util.List;
+@Component
 
 public class Student
 {
